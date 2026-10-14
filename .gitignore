@@ -1,0 +1,35 @@
+# --- Tableau binary / packaged files ---
+*.twbx
+*.tdsx
+*.hyper
+*.tde
+
+# --- Tableau temp & backup files ---
+*~
+*.tmp
+#*#
+
+# --- Tableau data source & bookmark files (optional) ---
+*.tds
+*.tbm
+
+# --- Data files (adjust to your project) ---
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+
+# --- Sensitive / credentials ---
+*.env
+*.key
+*.pem
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs ---
+*.log   
